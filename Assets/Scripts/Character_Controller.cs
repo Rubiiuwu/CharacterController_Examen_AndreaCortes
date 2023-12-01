@@ -9,7 +9,7 @@ public class Character_Controller : MonoBehaviour
     private float _horizontal;
     private float _vertical;
     [SerializeField] private float _playerSpeed = 3;
-    [SerializeField] private float _jumpForce = 3;
+    [SerializeField] private float _jumpForce = 5;
     private float _gravity = -9.81f;
     private Vector3 _playerGravity;
     [SerializeField] private float _turnSmoothVeloity;
